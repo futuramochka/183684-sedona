@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Дубенко](https://up.htmlacademy.ru/htmlcss/23/user/183684).
-* Наставник: `Неизвестно`.
+* Наставник: `Анна Рус`.
 
 ---
 
@@ -43,4 +43,3 @@ _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`
 Репозиторий создан для обучения на профессиональном онлайн‑курсе «[HTML и CSS, уровень 1](https://htmlacademy.ru/intensive/htmlcss)» от [HTML Academy](https://htmlacademy.ru).
 
 ---
-Имя наставника: Анна Рус
