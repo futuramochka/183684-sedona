@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Дубенко](https://up.htmlacademy.ru/htmlcss/23/user/183684).
-* Наставник: `Анна Рус` (https://htmlacademy.ru/profile/vanillawulf).
+* Наставник: [Анна Рус](https://htmlacademy.ru/profile/vanillawulf).
 
 ---
 
