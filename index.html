@@ -8,7 +8,7 @@
 		<header class="main-header">
 			<div class="main-header-logo">
 				<a>
-					<img src="img/logo-sedona.svg" width="140" height="72" alt="Логотип Седона">
+					<img src="img/logo-sedona.svg" width="140" height="72" alt="Логотип сайта Седона">
 				</a>
 			</div>
 			<nav class="navigation-link">
@@ -38,8 +38,21 @@
 				<h2 class="offer-question">Заинтересовались?</h2>
 				<h3 class="offer-choose">Укажите предполагаемые даты поездки,<br> 
 						и мы покажем вам лучшие предложения гостиниц в седоне</h3>
-				<form action="#" method="GET">
-					<!--Здесь будет форма-->
+				<h3 class="offer-search-hotel">ПОИСК ГОСТИНИЦЫ В СЕДОНЕ</h3>
+				<form class="form-search-hotel" action="http://echo.htmlacademy.ru" method="POST" aria-label="Форма заказа лучших предложений гостиниц">
+					<label class="form-label-go">
+						Дата заезда: <input class="form-date-go" type="date" aria-label="Дата заезда">
+					</label>
+					<label class="form-label-back">
+						Дата выезда: <input class="form-date-back" type="date" aria-label="Дата выезда">
+					</label>
+					<label class="form-label-parents">
+						Взрослые: <input class="form-parents-num" type="number" min="1" max="10" step="1" aria-label="Число взрослых в поездке">
+					</label>
+					<label class="form-label-children">
+						Дети: <input class="form-children-num" type="number" min="0" max="10" step="1" aria-label="Число детей в поездке">
+					</label>
+					<button type="button" >Найти</button>
 				</form>
 				
 			</section>
@@ -48,13 +61,13 @@
 			<b class="hashtag">#VISITSEDONA</b>
 			<div class="social-button">
 				<ul class="social-button-item">
-					<li><a href="https://twitter.com"><img src="img/twitter.svg" width="17" height="15" alt="Twitter">Twitter</a></li>
-					<li><a href="https://facebook.com"><img src="img/fb-icon.svg" width="12" height="22" alt="Facebook">Facebook</a></li>
-					<li><a href="https://youtube.com"><img src="img/youtube.svg" width="20" height="16" alt="Youtube">Youtube</a></li>
+					<li><a href="https://twitter.com" aria-label="Twitter"><img src="img/twitter.svg" width="17" height="15" alt="Twitter"></a></li>
+					<li><a href="https://facebook.com" aria-label="Facebook"><img src="img/fb-icon.svg" width="12" height="22" alt="Facebook"></a></li>
+					<li><a href="https://youtube.com" aria-label="Youtube"><img src="img/youtube.svg" width="20" height="16" alt="Youtube"></a></li>
 				</ul>
 			</div>
-			<a class="htmlacademy-logo" href="https://htmlacademy.ru" target="_blank" title="Сайт разработчиков темы Седона">
-				<img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Сайт разработчиков темы Седона">
+			<a class="htmlacademy-logo" href="https://htmlacademy.ru" target="_blank" aria-label="Сайт разработчиков темы Седона">
+				<img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип разработчиков сайта темы Седона">
 			</a>
 		</footer>
 	</body>
