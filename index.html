@@ -3,6 +3,9 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Седона</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
+		<link href="css/normalize.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">	
 	</head>
 	<body>
 		<header class="main-header">
@@ -28,29 +31,42 @@
 
 			<section class="advantages">
 				<h2 class="advantages-sedona">Седона — небольшой городок в Аризоне,заслуживающий большего!</h2>
-				<h3 class="advantages-sedona-look">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</h3>
+				<p class="advantages-sedona-look">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
+				<ul class="advantages-sedona-main">
+					<li><h3>Настоящий городок</h3><p class="advantages-sedona-num">№1</p><p class="advantages-sedona-description">Седона — не аттракцион для туристов, там течёт своя жизнь</p></li>
+					<li><h3>Мост дьявола</h3><p class="advantages-sedona-num">№2</p><p class="advantages-sedona-description">Да, по нему можно пройти! Если конечно вы осмелитесь</p></li>
+					<li><h3>Небольшая площадь</h3><p class="advantages-sedona-num">№3</p><p class="advantages-sedona-description">Все достопримечательности находятся очень близко</p></li>
+					<li><h3>Красивая дорога</h3><p class="advantages-sedona-num">№4</p><p class="advantages-sedona-description">Ехать в Седону из Лас-Вегаса совсем не скучно!</p></li>
+					<li><h3>Мало туристов</h3><p class="advantages-sedona-num">№5</p><p class="advantages-sedona-description">Большинство едет в гранд каньон и толпится там</p></li>
+					<li>
+						<ul class="advantages-sedona-extra">
+							<li><h3>Жильё</h3><p class="advantages-sedona-description">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p></li>
+							<li><h3>Еда</h3><p class="advantages-sedona-description">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p></li>
+							<li><h3>Сувениры</h3><p class="advantages-sedona-description">Не только китайского, но и местного производства!</p></li>
+						</ul>
+					</li>
+				</ul>
 				<img src="img/reasons-sedona.jpg" width="800" height="256" alt="фото городка Sedona">
 				<img src="img/canion-sedona.jpg"  width="800" height="256" alt="фото каньона Sedona">
-
 			</section>
 
 			<section class="offer">
 				<h2 class="offer-question">Заинтересовались?</h2>
-				<h3 class="offer-choose">Укажите предполагаемые даты поездки,<br> 
-						и мы покажем вам лучшие предложения гостиниц в седоне</h3>
+				<p class="offer-choose">Укажите предполагаемые даты поездки,<br> 
+						и мы покажем вам лучшие предложения гостиниц в седоне</p>
 				<a href="" class="offer-search-hotel" aria-label="Нажмите чтобы открыть форму поиска">Поиск гостиницы в Седоне</a>
 				<form class="form-search-hotel" action="http://echo.htmlacademy.ru" method="POST" aria-label="Форма заказа лучших предложений гостиниц">
 					<label class="form-label-go">
-						Дата заезда: <input class="form-date-go" type="date" aria-label="Дата заезда">
+						Дата заезда: <input class="form-date-go" type="date" value="2017-04-24" aria-label="Дата заезда">
 					</label>
 					<label class="form-label-back">
-						Дата выезда: <input class="form-date-back" type="date" aria-label="Дата выезда">
+						Дата выезда: <input class="form-date-back" type="date" value="2017-06-04" aria-label="Дата выезда">
 					</label>
 					<label class="form-label-parents">
-						Взрослые: <input class="form-parents-num" type="number" min="1" max="10" step="1" aria-label="Число взрослых в поездке">
+						Взрослые: <input class="form-parents-num" type="number" value="2" min="1" max="10" step="1" aria-label="Число взрослых в поездке">
 					</label>
 					<label class="form-label-children">
-					    Дети: <input class="form-children-num" type="number" min="0" max="10" step="1" aria-label="Число детей в поездке">
+					    Дети: <input class="form-children-num" type="number" value="0" min="0" max="10" step="1" aria-label="Число детей в поездке">
 					</label>
 					<button type="button">Найти</button>
 				</form>
@@ -66,8 +82,9 @@
 					<li><a href="https://youtube.com" aria-label="Youtube"><img src="img/youtube.svg" width="20" height="16" alt="Youtube"></a></li>
 				</ul>
 			</div>
+	
 			<a class="htmlacademy-logo" href="https://htmlacademy.ru" target="_blank" aria-label="Сайт разработчиков темы Седона">
-				<img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип разработчиков сайта темы Седона">
+				<p class="htmlacademy-pointer">website by</p><img src="img/logo-htmlacademy.svg" width="115" height="41" alt="Логотип разработчиков сайта темы Седона">
 			</a>
 		</footer>
 	</body>
