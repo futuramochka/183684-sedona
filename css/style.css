@@ -40,6 +40,7 @@ h3{
 }
 
 .advantages-sedona-look{
+    text-transform: none;
     color: #333333;
     
     background-color: white;
@@ -47,6 +48,8 @@ h3{
 
 .advantages-sedona-main li{
     list-style: none;
+    line-height: 21px;
+    
 }
 
 
@@ -65,7 +68,7 @@ h3{
 }
 
 form{
-    display: none;
+    
 }
 
 .hashtag{
