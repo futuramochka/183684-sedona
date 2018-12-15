@@ -108,3 +108,11 @@ form{
 .hotel-stars li{
     list-style: none;
 }
+
+/*grid*/
+/*Временно для сетки удалить*/
+body{
+    background-image: url('img/sedona-index.psd');
+    background-size: 1372px;
+    background-repeat: no-repeat;
+}
