@@ -16,8 +16,10 @@ body{
 
 .main-header-logo{
     position: absolute;
+    z-index: ;
     left: 600px;
     top: 0 auto;
+    border-style: none;
 }
 
 a{
@@ -164,53 +166,28 @@ button{
 }
 
 /*grid*/
-/*Временно для сетки удалить*/
+
 body{
-    /*background-image: url('../img/sedona-index.jpg');
-    background-size: 1280px;
-    background-repeat: no-repeat;
-    background-position-x: center;*/
-}
-    
-    
-
-/*Временно для сетки конец*/
-
-.main-header{
-    
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    
+    background-image: url('../img/backgroundimg.png');
+    background-repeat: repeat;
+   
 }
 
 .main-header-logo img{
     width: 140px;
-    height: 72;
-    align-self: flex-start;
-    align-items: center;
-    
-}
-
-.main-navigation-wrapper{
-    width: 100%;
-    background-color: white;
-    
-
-    /*удалить*/
-    min-height: 95px;
-    background-color: unset;
+    height: 72; 
 }
 
 .conteiner{
-    width: 1200px;
-    margin: 0 auto;
-    padding: 0 73px;
-}
-
-.maine-header .main-navigation-wrapper{
     display: flex;
-  
+    width: 1120px;
+    height: 60px;
+    margin: 0px auto;
+    
+    padding: 0 73px;
+
+    background-color: white;
+    
 }
 
 .navigation-link{
@@ -221,6 +198,38 @@ body{
 
 .navigation-link-item{
     display: flex;
-    justify-content: space-around;
-    margin-top: 0 auto;
+    justify-content: space-between;
+    
+    
+}
+
+.welcome-image{
+    
+     
+} 
+
+.welcome-image img:nth-child(2){
+    position: relative;
+    z-index:  100;
+    width: 1267px;
+    height: 510px;
+    padding: 0 40px;
+    
+    
+}
+
+.welcome-image img:nth-child(3){
+    position: absolute;
+    z-index: 300;
+    padding: 0 412px;
+    left: 20px;
+    top: 120px;
+}
+
+.welcome-image img:nth-child(4){
+    width: 1267px;
+    height: 60px;
+    position: absolute;
+    left: 40px;
+    bottom: 55px;
 }
