@@ -14,9 +14,9 @@ body{
     position: relative;
 }
 
-.main-header-logo{
+.main-header-logo {
     position: absolute;
-    z-index: ;
+    z-index: 400;
     left: 600px;
     top: 0 auto;
     border-style: none;
@@ -27,7 +27,6 @@ a{
     font-weight: bold;
     color: #000000;
 
-    background-color: white;
 }
 
 h3{
@@ -173,10 +172,10 @@ body{
    
 }
 
-.main-header-logo img{
+/*.main-header-logo img{
     width: 140px;
     height: 72; 
-}
+}*/
 
 .conteiner{
     display: flex;
