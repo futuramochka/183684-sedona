@@ -1,13 +1,12 @@
 body{
     margin: 0;
-
+     
     font-family: 'PT Sans', Arial, sans-serif;
     font-size: 14px;
     line-height: 26px;
+    width: 1280px;
     color:#000000;
     text-transform: uppercase;
-
-    background-color: white;
 }
 
 .main-header{
@@ -26,20 +25,16 @@ a{
     text-decoration: none;
     font-weight: bold;
     color: #000000;
-
 }
 
 h3{
     font-size: 21px;
     font-weight: bold;
-    color: #000000;
-
-    
+    color: #000000;    
 }
 
 .navigation-link-item{
-    list-style: none;
-    
+    list-style: none;   
 }
 
 .visually-hidden{
@@ -63,15 +58,12 @@ h3{
 
 .advantages-sedona-main li{
     list-style: none;
-    line-height: 21px;
-    
+    line-height: 21px;  
 }
-
 
 .advantages-sedona-blue{
     background-color: blue;
-} 
-
+}
 
 .offer-question{
     font-size: 30px;
@@ -96,10 +88,6 @@ h3{
     background-color: #766357;
 }
 
-form{
-    
-}
-
 .form-label-go,
 .form-label-back,
 .form-label-parents,
@@ -122,7 +110,6 @@ button{
     color: #000000;
 
     background-color: white;
-
 }
 
 .htmlacademy-pointer{
@@ -168,53 +155,40 @@ button{
 
 body{
     background-image: url('../img/backgroundimg.png');
-    background-repeat: repeat;
-   
+    background-repeat: repeat; 
+    
 }
-
-/*.main-header-logo img{
-    width: 140px;
-    height: 72; 
-}*/
 
 .conteiner{
     display: flex;
-    width: 1120px;
-    height: 60px;
-    margin: 0px auto;
-    
-    padding: 0 73px;
-
-    background-color: white;
-    
+    margin: auto;
+    width: 1200px;
+    height: 56px;  
+    padding: 0 40px;   
 }
 
 .navigation-link{
     width: 1056px;
-    margin:0;
-    padding:0;
+    padding:0 72px;
+
+    background-color: white;
 }
 
 .navigation-link-item{
     display: flex;
     justify-content: space-between;
-    
-    
 }
 
-.welcome-image{
-    
-     
-} 
+.navigation-link-item li:first-child{
+   justify-content: center;
+}
 
 .welcome-image img:nth-child(2){
     position: relative;
+    width: 1200px;
+    height: 800px;
     z-index:  100;
-    width: 1267px;
-    height: 510px;
-    padding: 0 40px;
-    
-    
+    padding: 0 40px;   
 }
 
 .welcome-image img:nth-child(3){
