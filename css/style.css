@@ -1,5 +1,5 @@
 body{
-    margin: 0;
+    margin: auto;
      
     font-family: 'PT Sans', Arial, sans-serif;
     font-size: 14px;
@@ -11,13 +11,14 @@ body{
 
 .main-header{
     position: relative;
+    background-image: url('../img/backgroundimg.png');
+    background-repeat: repeat; 
 }
 
 .main-header-logo {
     position: absolute;
+    padding: 0 570px;
     z-index: 400;
-    left: 600px;
-    top: 0 auto;
     border-style: none;
 }
 
@@ -25,6 +26,10 @@ a{
     text-decoration: none;
     font-weight: bold;
     color: #000000;
+}
+
+a:hover{
+    color: red;
 }
 
 h3{
@@ -152,24 +157,16 @@ button{
 }
 
 /*grid*/
-
-body{
-    background-image: url('../img/backgroundimg.png');
-    background-repeat: repeat; 
-    
-}
-
 .conteiner{
     display: flex;
-    margin: auto;
     width: 1200px;
     height: 56px;  
-    padding: 0 40px;   
+    padding: 0 40px;  
 }
 
 .navigation-link{
     width: 1056px;
-    padding:0 72px;
+    padding: 0 73px;
 
     background-color: white;
 }
@@ -177,32 +174,45 @@ body{
 .navigation-link-item{
     display: flex;
     justify-content: space-between;
+    padding: 0px;
 }
 
-.navigation-link-item li:first-child{
-   justify-content: center;
+.navigation-link-item li:nth-child(2){
+    position: relative;
+    margin-right: 312px;
+    z-index: 600;    
+}
+
+.navigation-link-item li:nth-child(1),
+.navigation-link-item li:nth-child(3),
+.navigation-link-item li:nth-child(4){
+    position: relative;
+    z-index: 600;
 }
 
 .welcome-image img:nth-child(2){
     position: relative;
+    background-image: url('../img/backgroundimg.png');
+    background-repeat: repeat;
     width: 1200px;
-    height: 800px;
+    height: 504px;
     z-index:  100;
-    padding: 0 40px;   
+    padding: 0 40px; 
 }
 
 .welcome-image img:nth-child(3){
     position: absolute;
     z-index: 300;
     padding: 0 412px;
-    left: 20px;
-    top: 120px;
+    top: 132px;
 }
 
 .welcome-image img:nth-child(4){
-    width: 1267px;
+    width: 1200px;
     height: 60px;
     position: absolute;
-    left: 40px;
-    bottom: 55px;
+    z-index: 900;
+    padding: 0 40px;
+    bottom: 64px;
+
 }
