@@ -9,10 +9,12 @@ body{
     text-transform: uppercase;
 }
 
+main{
+    /*background: #f2f2f2;*/
+}
 .main-header{
     position: relative;
-    background-image: url('../img/backgroundimg.png');
-    background-repeat: repeat; 
+    background-color: #f2f2f2;
 }
 
 .main-header-logo {
@@ -46,29 +48,56 @@ h3{
     display: none;
 }
 
+.welcome-image{
+    margin-bottom: auto;
+    background: #f2f2f2;
+}
+
+.advantages{
+    padding-left: 40px;
+
+    background-color: #f2f2f2;
+}
+
+.advatages-write-block{
+    width: 1200px;
+    height: 260px;
+    background-color: white;
+}
+
 .advantages-sedona{
     font-size: 21px;
     font-weight: bold;
     color: #000000;
-
-    background-color: white;
+    text-align: center;
+    padding-top: 70px;
+    margin: auto;
 }
 
 .advantages-sedona-look{
     text-transform: uppercase;
     color: #333333;
-    
-    background-color: white;
+    text-align: center;
+    padding-top: 40px;
+    margin: auto;
 }
 
+.advantages-sedona-main{
+    display: flex;
+}
 .advantages-sedona-main li{
     list-style: none;
     line-height: 21px;  
 }
 
-.advantages-sedona-blue{
-    background-color: blue;
+.advantages-sedona-num,
+.advantages-sedona-description{
+    text-align: center;
 }
+
+/*.advantages-sedona-blue{
+    background-color: blue;
+}*/
 
 .offer-question{
     font-size: 30px;
@@ -192,10 +221,9 @@ button{
 
 .welcome-image img:nth-child(2){
     position: relative;
-    background-image: url('../img/backgroundimg.png');
-    background-repeat: repeat;
+    background-color: #f2f2f2;
     width: 1200px;
-    height: 504px;
+    height: 512px;
     z-index:  100;
     padding: 0 40px; 
 }
@@ -207,12 +235,11 @@ button{
     top: 132px;
 }
 
-.welcome-image img:nth-child(4){
+.advantages img:first-child{
     width: 1200px;
     height: 60px;
     position: absolute;
     z-index: 900;
-    padding: 0 40px;
-    bottom: 64px;
-
+    padding-right: 40px;
+    bottom: 94px;
 }
